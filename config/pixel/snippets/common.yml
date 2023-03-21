@@ -199,6 +199,9 @@ filters:
       - product/etc/sysconfig/pixel_experience_2020.xml
       - product/etc/sysconfig/pixel_experience_2020_midyear.xml
 
+      # Bluetooth
+      - system/app/GoogleBluetoothLegacyMigration/GoogleBluetoothLegacyMigration.apk
+
     prefix:
       # (Live) wallpapers
       - product/app/WallpapersBReel
@@ -299,6 +302,7 @@ filters:
       - android:string/config_deviceProvisioningPackage
       - android:string/default_wallpaper_component
       - android:bool/config_pinnerHomeApp
+      - android:string/config_systemBluetoothStack
       - com.android.settings:string-array/slice_allowlist_package_names
 
       # Intentionally included: attention, speech recognition, search UI, smartspace, translation
