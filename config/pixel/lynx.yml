@@ -1,0 +1,17 @@
+device:
+  name: lynx
+
+platform:
+  product_makefile: device/google/lynx/aosp_lynx.mk
+
+  sepolicy_dirs:
+    - device/google/lynx-sepolicy
+
+includes:
+  - snippets/2022.yml
+
+filters:
+  overlay_files:
+    match:
+      # Workaround for aapt2 output parsing bug
+      - HbmSVManager__auto_generated_rro_product.apk

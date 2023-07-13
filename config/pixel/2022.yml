@@ -3,3 +3,4 @@ type: device-list
 devices:
   - cheetah.yml
   - panther.yml
+  - lynx.yml
