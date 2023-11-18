@@ -55,3 +55,8 @@ filters:
     match:
       # Workaround for aapt2 output parsing bug
       - HbmSVManager__auto_generated_rro_vendor.apk
+      - Flipendo__auto_generated_rro_product.apk
+      - SettingsGoogle__auto_generated_rro_product.apk
+      - StorageManagerGoogle__auto_generated_rro_product.apk
+      - SystemUIGoogle__auto_generated_rro_product.apk
+      - Traceur__auto_generated_rro_product.apk

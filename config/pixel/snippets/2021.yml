@@ -27,3 +27,12 @@ filters:
       # Required for building ARM NN HAL
       - vendor/lib/libOpenCL.so
       - vendor/lib64/libOpenCL.so
+
+  overlay_files:
+    match:
+      # Workaround for aapt2 output parsing bug
+      - Flipendo__auto_generated_rro_product.apk
+      - SettingsGoogle__auto_generated_rro_product.apk
+      - StorageManagerGoogle__auto_generated_rro_product.apk
+      - SystemUIGoogle__auto_generated_rro_product.apk
+      - Traceur__auto_generated_rro_product.apk
