@@ -109,7 +109,7 @@ filters:
       - system/priv-app/NetworkStackGoogle/NetworkStackGoogle.apk
 
     prefix:
-      - product/app/PixelCameraServices
+      - product/priv-app/PixelCameraServices
       # Another app updated by Play Store on stock
       - product/priv-app/DevicePersonalizationPrebuiltPixel
 
